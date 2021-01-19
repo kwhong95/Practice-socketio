@@ -1,6 +1,7 @@
-import React, { FC } from 'react';
+import React, { FC, useState } from 'react';
 
 const Join: FC = () => {
+
   return (
     <div>
       Join
