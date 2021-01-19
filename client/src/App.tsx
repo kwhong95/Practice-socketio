@@ -1,10 +1,8 @@
 import React, { FC, lazy, Suspense } from 'react';
 import './App.css';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
 import menu3 from './img/chat.png';
 import menu1 from './img/aboutme.png';
 import creator from './img/creator.jpg';
-const Join = lazy(() => import('./components/Join')); 
 const Chat = lazy(() => import('./components/Chat')); 
 
 const App: FC = () => {
@@ -40,7 +38,7 @@ const App: FC = () => {
             </div>
           </div>
           <div className="contents">
-            <h2>Chat Room</h2>
+            <Chat />
           </div>
         </section>
       </main>
