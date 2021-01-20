@@ -29,25 +29,7 @@ const App: FC = () => {
               </div>
               <div className="link-item">
                 <img src={menu3} alt="chat" />
-                <h2>Habits</h2> 
-              </div>
-              <div className="link-item">
-                <img src={menu3} alt="chat" />
-                <h2>Contact me</h2> 
-              </div>
-            </div>
-          </div>
-          <div className="contents">
-            <Chat />
-          </div>
-        </section>
-      </main>
-        <div className="circle1" />
-        <div className="circle2" />
-      {/* <Router>
-        <Route path="/" exact component={Join} />
-        <Route path="/chat" exact component={Chat} />
-      </Router> */}
+                <h2>Habits</h2>        </Router> */}
     </Suspense>
   );
 }

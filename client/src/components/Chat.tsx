@@ -1,7 +1,7 @@
 import React, { FC, SyntheticEvent, useState } from 'react';
 import io from 'socket.io-client';
 
-const socket = io.connect('http://localhost:4000');
+const socket = io('http://localhost:4000');
 
 const Chat: FC = () => {
   const [state, setState] = useState({message: '', name: ''});
